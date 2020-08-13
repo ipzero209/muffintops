@@ -14,6 +14,7 @@
       <title>Traversy Launcher</title>
       <link rel="stylesheet" href="https://fonts.googleapis.com/cc?family=Open+Sans" type="text/css">
       <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
       <style>
         html, body {
           font-family: 'Open Sans', sans-serif;
@@ -108,13 +109,16 @@
       <div class="modal-icons">
         <div class="flex-container">
           <div class="flex">
-            <a href="https://drive.google.com/drive/my-drive" target="_blank">
+            <button class="btn" onclick="createDocument()">
               <i class="fa fa-file" style="color:darksalmon "></i>
-            </a>
+            Notes 
+          </button>
           </div>
           <div class="flex">
-            <a href="https://calendar.google.com" target="_blank">
+            <button class="btn" onclick="linkToCalendar()">
               <i class="fa fa-calendar" style="color:darksalmon "></i>
+            Calendar 
+          </button>
             </a>
           </div>
         </div>
