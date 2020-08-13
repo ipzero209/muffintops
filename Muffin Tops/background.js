@@ -22,4 +22,5 @@ chrome.declarativeContent.onPageChanged.removeRules(undefined, function() {
 
 chrome.browserAction.onClicked.addListener(function(tab) {
   chrome.tabs.executeScript(null, {file: "createDocument.js"});
+  console.log('Trying to execute this script');
 });
